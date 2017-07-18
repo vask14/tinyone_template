@@ -8,6 +8,8 @@
         <link href="css/style.css" rel="stylesheet">
         <link href = "css/bootstrap.css" rel = "stylesheet">
         <link href = "css/bootstrap-theme.css" rel = "stylesheet">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css">
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
         <script src = "js/jquery-3.2.1.js"></script>
         <script src = "js/bootstrap.js"></script>
     </head>
@@ -16,7 +18,7 @@
         <header class = "main-header">
             <div class = "container fluid">
                 <!-- Top Bar : Begin -->
-                <div class = "top-bar row">
+                <div class = "top-bar row" data-aos="fade-up">
                     <nav class = "navbar">
                         <div class = "navbar-header col-md-6">
                             <a href = "#" class = "navbar-brand">
@@ -34,7 +36,7 @@
                 </div>
                 <!-- Top Bar : End -->
                 <!-- Header Banner : Begin -->
-                <div class = "banner">
+                <div class = "banner" data-aos = "fade-down">
                     <div class = "banner-content container">
                         <div class = "row">
                             <div class = "jumbotron col-md-6">
@@ -86,13 +88,13 @@
         <main class = "page-content">
             <section class = "features">
                 <div class = "container">
-                    <div class= "page-header">
+                    <div class= "page-header"data-aos="fade-right">
                         <h2>Tinyone features</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus
                            tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
                     </div>
                     <div class = "page-features">
-                        <div class = "feature-1 row">
+                        <div class = "feature-1 row" data-aos = "slide-up">
                             <article class = "feature-one">
                                 <div class= "img-feature col-md-1">
                                     <a href = "#">
@@ -127,7 +129,7 @@
                                 </div>
                             </article>
                         </div>
-                        <div class = "features-2 row">
+                        <div class = "features-2 row" data-aos = "slide-up">
                             <article class = "feature-four">
                                 <div class = "img-feature col-md-1">
                                     <a href = "#">
@@ -240,5 +242,6 @@ tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
             </div>
         </footer>
         <!-- Footer Block : End -->
+        <script src = "js/index.js"></script>
     </body>
 </html>
