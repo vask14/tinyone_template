@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body h1 p h2 h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.banner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+header {
+    background-color: rgb(252, 219, 0);
+    min-height: 700px;
+}
+.navbar {
+    padding-left: 40px;
+    font-size: 24px;
+    padding-top: 30px;
+}
+div.jumbotron {
+    background-color: inherit;
+}
+div.jumbotron h1 {
+    line-height: 34px;
+    font-weight: 900;
+    font-size:32px;
+}
+div.jumbotron h3 {
+    padding-top: 5px;
+    font-size:24px;
+    font-family: 'PT Sans',sans-serif;
+}
+div.jumbotron p {
+    padding-top: 10px;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 17px;
+}
+div.jumbotron img {
+    padding-top: 15px;
+    padding-right: 45px;
+}
+nav li a {
+    font-weight: bold;
+    font-family: 'PT Sans',sans-serif;
+    color: black;
+  
+}
+.white {
+    height: 450px;
+    width: 295px;
+    background-color: white;
+    border-radius: 25px;
+    padding-top: 47px;
+}
+.black {
+    height:350px;
+    width:250px;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.logo {
+    padding-left: 40px;
+    padding-top: 135px;
+}
+.black span {
+    color: rgb(252, 219, 0);
+    font-weight: bold;
+    font-size: 30px;
+}
+#myCarousel{
+    padding-top: 80px;
+}
+.page-header {
+    padding-top: 40px;
+}
+.container .page-header {
+    border-bottom: 0px solid white;
+}
+.page-header h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34px;
+    text-align: center;
+}
+.page-header p {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin: 20px 160px 70px;
+}
+.img-feature {
+    padding-top:20px;
+}
+.feature-1 {
+    padding-bottom: 40px;
+}
+.page-features {
+    padding-left:60px;
+    padding-bottom: 30px;
+}
+.feature-article p {
+    color: #a0a0a0;
+    font-size: 16px;
+}
+.features {
+    margin-bottom: 100px;
+}
+footer {
+    background-color: #000000;
+}
+.message {
+    margin: auto;
+    text-align: center;
+}
+.message input {
+    width:580px;
+    background: #fff;
+    border: 0;
+    padding: 13px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+.message button {
+    width: 150px;
+    padding:13px;
+    font-weight: bold;
+    background-color: rgb(252, 219, 0);
+    border:none;
+    border-radius: 5px;
+}
+.message button:hover {
+    background-color: #eee;
+    text-decoration: none;
+}
+footer h2 {
+    color: rgb(252, 219, 0);
+}
+.social {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+.social img {
+    padding-left: 20px;
+}
+.contacts {
+    padding-left: 120px;
+}
+.contacts address {
+    color:#fff;
+}
+.contacts a {
+    color:#fff;
+}
+.contacts a:hover {
+    text-decoration: none;
+    color: rgb(252, 219, 0);
+}
