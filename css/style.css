@@ -3,8 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-body h1 p h2 h3{
-    font-family: 'Source Sans Pro', sans-serif;
+.nav li{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
 }
 .banner {
     padding-top: 30px;
@@ -23,19 +24,21 @@ div.jumbotron {
     background-color: inherit;
 }
 div.jumbotron h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
     line-height: 34px;
-    font-weight: 900;
     font-size:32px;
 }
 div.jumbotron h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
     padding-top: 5px;
     font-size:24px;
-    font-family: 'PT Sans',sans-serif;
 }
 div.jumbotron p {
     padding-top: 10px;
     font-family: 'PT Sans',sans-serif;
-    font-size: 17px;
+    font-size: 16px;
 }
 div.jumbotron img {
     padding-top: 15px;
@@ -43,9 +46,9 @@ div.jumbotron img {
 }
 nav li a {
     font-weight: bold;
+    font-size: 24px;
     font-family: 'PT Sans',sans-serif;
     color: black;
-  
 }
 .white {
     height: 450px;
@@ -80,12 +83,15 @@ nav li a {
     border-bottom: 0px solid white;
 }
 .page-header h2 {
-    font-weight: 700;
+    font-family: 'PT Sans',sans-serif;
+    font-weight: bold;
     font-size: 32px;
     line-height: 34px;
     text-align: center;
 }
 .page-header p {
+    font-family: 'PT Sans',sans-serif;
+    font-weight: normal;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
@@ -101,7 +107,13 @@ nav li a {
     padding-left:60px;
     padding-bottom: 30px;
 }
+.feature-article h3 {
+    font-family: 'PT Sans',sans-serif;
+    font-weight: normal;
+}
 .feature-article p {
+    font-family: 'PT Sans',sans-serif;
+    font-weight: normal;
     color: #a0a0a0;
     font-size: 16px;
 }
@@ -139,6 +151,9 @@ footer {
 footer h2 {
     color: rgb(252, 219, 0);
 }
+footer p {
+    color: #9a9a9a;
+}
 .social {
     text-align: center;
     padding-top: 80px;
@@ -151,9 +166,13 @@ footer h2 {
     padding-left: 120px;
 }
 .contacts address {
+    font-family: 'PT Sans',sans-serif;
+    font-weight: normal;
     color:#fff;
 }
 .contacts a {
+    font-family: 'PT Sans',sans-serif;
+    font-weight: normal;
     color:#fff;
 }
 .contacts a:hover {
